@@ -1,0 +1,26 @@
+li{
+    height: 40px;
+    border: 1px solid #bd7070;
+}
+li label{
+    float: left;
+    cursor: pointer;
+}
+li label li input{
+    vertical-align: middle;
+    margin-right: 60px;
+    position: relative;
+    top:-1px
+}
+li button{
+    float:right;
+    display: none;
+    margin-top: 3px;
+}
+li:before{
+    content: initial;
+}
+
+li:last-child{
+    border-bottom: none;
+}

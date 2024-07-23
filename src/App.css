@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(186, 207, 225);
+}
+.btn{
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    box-shadow: inset 0 1px 0 #c6bcbf,0 1px 2px #d3c6c6;
+    border-radius: 30px;
+}
+.btn-danger{
+    color: #d3c6c6;
+    background-color: rgb(100, 93, 96);
+    border: 1px solid #c6bcbf;
+}
+.btn-danger:hover{
+    color: rgb(208, 130, 29);
+    background-color: #7f1627;
+}
+.btn:focus{
+    outline: none;
+}
+.todo-container{
+    display: flex;
+    justify-content: center;
+}
+.todo-wrap{
+    overflow: hidden;
+    background-color: #c6bcbf;
+    width: 500px;
+    height: 500px;
+}
